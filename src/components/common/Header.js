@@ -1,16 +1,16 @@
 // Import libraries for component
-import React from 'react';
-import { Text, View } from 'react-native';
+import React from 'react'
+import { Text, View } from 'react-native'
 
 const Header = (props) => {
-  const { textStyle, viewStyle } = styles;
+  const { textStyle, viewStyle } = styles
 
   return (
     <View style={viewStyle}>
       <Text style={textStyle}>{ props.headerText }</Text>
     </View>
-  );
-};
+  )
+}
 
 // Styles
 const styles = {
@@ -29,7 +29,7 @@ const styles = {
     elevation: 2,
     position: 'relative'
   }
-};
+}
 
 // Export to other Components
-export { Header };
+export { Header }
