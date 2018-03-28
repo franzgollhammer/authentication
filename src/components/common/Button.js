@@ -27,7 +27,7 @@ const styles = {
     borderWidth: 2,
     borderColor: '#007aff',
     marginLeft: 5,
-    marginRight: 5
+    marginRight: 5,
   },
 }
 
